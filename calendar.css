@@ -88,17 +88,28 @@ section
     width: 45px;
     height: 45px;
     font-size: 2em;
-    left: 15px
-   }
-.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn
+    left: 15px;
+    color: #777;
+    background: #edf1f4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
+    -5px -5px 10px rgba(255,255,255,1);
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn
 {
     width: 45px;
     height: 45px;
     font-size: 2em;
-    right: 15px
+    right: 15px;
+    color: #777;
+    background: #edf1f4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
+    -5px -5px 10px rgba(255,255,255,1);
+    
 }
 .dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn:active ,
-.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn:active
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn:active
 {
     box-shadow: inset 5px 5px 10px rgba(0,0,0,0.1),
      inset -5px -5px 10px rgba(255,255,255,1);
