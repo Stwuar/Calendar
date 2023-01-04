@@ -34,6 +34,8 @@ section
 {
     width: 100%;
     border-spacing: 15px;
+    margin-top: 40px;
+
 }
 #dycalendar table tr:nth-child(1) td
 {
@@ -62,7 +64,7 @@ section
    /*  box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
      -5px -5px 10px rgba(255,255,255,1); */
 }
-#dycalendar table id:hover
+#dycalendar table td:hover
 {
     box-shadow: inset 5px 5px 10px rgba(0,0,0,0.1),
     inset -5px -5px 10px rgba(255,255,255,1);
@@ -76,4 +78,34 @@ section
 .dycalendar-month-container .dycalendar-target-date
 {
     background: #2196f3;
+    color: #fff !important;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1),
+     -5px -5px 10px rgba(255,255,255,1) !important;
+    border: 2px solid #edf1f4;
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn
+{
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    left: 15px
+   }
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn
+{
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    right: 15px
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn:active ,
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn:active
+{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.1),
+     inset -5px -5px 10px rgba(255,255,255,1);
+}
+.dycalendar-span-month-year
+{
+    color: #2196f3;
+    font-size: 2em;
+    font-weight: 400;    
 }
